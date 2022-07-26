@@ -55,6 +55,8 @@ def main():
             </style> """, unsafe_allow_html=True)
             st.markdown('<p class="font">Guide to Pytorch Learning Rate Scheduler</p>', unsafe_allow_html=True) 
         st.write("This is the app to learn about Pytorch Learning Rate Scheduler and see how it changes according to the setting values.")
+        st.write("Reference1 : https://pytorch.org/docs/stable/optim.html (Pytorch Official)")
+        st.write("Reference2 : https://www.kaggle.com/code/isbhargav/guide-to-pytorch-learning-rate-scheduling/notebook")
     elif choice == 'LambdaLR':   
         # options
         container2.write(f'{choice} Options')
