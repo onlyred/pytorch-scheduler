@@ -5,6 +5,13 @@ Reference1 : https://pytorch.org/docs/stable/optim.html (Pytorch Official)
 
 Reference2 : https://www.kaggle.com/code/isbhargav/guide-to-pytorch-learning-rate-scheduling/notebook
 
+# Requirements
+python >= 3.6
+streamlit
+streamlit-option-menu
+matplotlib
+pytorch 1.9.0 (cpu / gpu)
+
 # Run 
 streamlit run app.py
 
